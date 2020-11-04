@@ -3,7 +3,7 @@
 # Script:                   Python Metasploit
 # Author:                   Courtney Hans
 # Date of latest revision:  11/4/20
-# Purpose:                  Encryption/Decryption tool for Windows
+# Purpose:                  Encryption & Decryption tool for Windows
 
 # Import libraries
 
