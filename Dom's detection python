@@ -1,0 +1,107 @@
+# Dom Moore
+# Midterm Project 401
+# File Modification Dectection script.
+
+
+# import libraries
+import sys
+import time
+import logging
+from watchdog.observers import Observer
+from watchdog.events import LoggingEventHandler
+import os
+import smtplib
+import paramiko
+import sys
+
+# create ssh connection into target
+#results = []
+#
+#def ssh_conn():
+#    client = paramiko.SSHClient()
+#    client.load_host_keys()
+#    client.connect('10.0.0.154', username = 'IEUser', password = 'Passw0rd!')
+#
+#    ssh_stdin, ssh_stdout, ssh_stderr = client.exec_command('ss -ltn')
+#
+#    for line in ssh_stdout:
+#        results.append(line.strip('\n'))
+#
+#ssh_conn()
+#
+#for i in results:
+#    print(i.strip())
+
+
+
+# creating monitoring data and time stamps
+if __name__ == "__main__":
+    logging.basicConfig(level=logging.INFO,
+                        format='%(asctime)s - %(message)s',
+                        datefmt='%Y-%m-%d %H:%M:%S')
+
+    # choosing the path of the directory to observe                     
+    path = "/home/ubuntu/opstest"
+    #path = "C:/Users/IEUser/targettest/sample.tx"
+
+    # email credentials
+    EmailAddress = os.environ.get('EmailAddr')
+    EmailPassword = os.environ.get('EmailPass')
+
+
+    # creating log for the events
+    event_handler = LoggingEventHandler()
+
+    # initiallizing the observer function
+    observer = Observer()
+    observer.schedule(event_handler, path, recursive=True)
+
+    # starting the observer function
+    observer.start()
+    try:
+        while True:
+            time.sleep(1)
+    except KeyboardInterrupt:
+        observer.stop()
+    observer.join()
+
+
+# email path with secure port
+
+# with smtplib.SMTP_SSL('smtp.gmail.com', 465) as smtp:
+#with smtplib.SMTP('localhost', 1025) as smtp:
+#    #smtp.ehlo()
+#    #smtp.starttls()
+#    #smtp.ehlo()
+#
+#    #smtp.login(EmailAddress, EmailPassword)
+#
+#    subject = 'Network Notification'
+#    body = 'There has been decection of a file modification in the downloads directory!'
+#
+#    msg = f'Subject: {subject}\n\n{body}'
+#
+#    smtp.sendmail(EmailAddress, 'cyops123@gmail.com' , msg)
+#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# resource: https://pypi.org/project/watchdog/
