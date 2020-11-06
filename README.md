@@ -6,7 +6,7 @@ November 6, 2020
 
 ## Abstract
  
-On December 19, 2013, Target Corporation issued a press release admitting the company was “aware of unauthorized access to payment card data that may have impacted certain guests making credit and debit card purchases in its U.S. stores,” acknowledging 40 million credit and debit card records had been stolen. One month later, the company confirmed that an additional 70 million data records had been stolen. Forensic investigation led researchers to conclude there were multiple facts that led to this data loss: third-party vendors were subject to phishing attacks, attackers were able to exploit broken access control of default accounts, network segregation was weak, point of sale systems were vulnerable to memory scraping malware, and detection strategies either failed or were dismissed by Target executives. 
+On December 19, 2013, Target Corporation issued a press release admitting the company was “aware of unauthorized access to payment card data that may have impacted certain guests making credit and debit card purchases in its U.S. stores,” acknowledging 40 million credit and debit card records had been stolen. One month later, the company confirmed that an additional 70 million data records had been stolen. Forensic investigation led researchers to conclude there were multiple factors that led to this data loss: third-party vendors were subject to phishing attacks, attackers were able to exploit broken access control of default accounts, network segregation was weak, point of sale systems were vulnerable to memory scraping malware, and detection strategies either failed or were dismissed by Target executives. 
 
 ## Project Overview
 
@@ -29,28 +29,28 @@ Enable Guest account with administrative privileges and RDP (Remote Desktop Prot
 ## Resources & assets
  
 **Applications**</br>
-Oracle VirtualBox
-	Kali Linux 20.20 virtual machine - attack mechanism
-	Windows 7 - target of evaluation
-Microsoft Threat Modeling Tool
-GitHub
-Google Docs & Slides
+Oracle VirtualBox</br>
+*Kali Linux 20.20 virtual machine* - attack mechanism</br>
+*Windows 7 virtual machine* - target of evaluation</br>
+Microsoft Threat Modeling Tool</br>
+GitHub</br>
+Google Docs & Slides</br>
  
 **Tools & coding languages**</br>
-Metasploit
-NMap
-Fernet key encryption
-Windows Defender Firewall
-Microsoft Security Essentials
-Python 2.7.18
-Python 3.8.4
-Windows Command Line
+Metasploit</br>
+NMap</br>
+Fernet key encryption</br>
+Windows Defender Firewall</br>
+Microsoft Security Essentials</br>
+Python 2.7.18</br>
+Python 3.8.4</br>
+Windows Command Line</br>
  
 **Additional resources**</br>
-MITRE ATT&CK framework
-Atomic Red Team
-Lockheed Martin Cyber Kill Chain
-NIST Risk Management Framework
+MITRE ATT&CK framework</br>
+Atomic Red Team</br>
+Lockheed Martin Cyber Kill Chain</br>
+NIST Risk Management Framework</br>
 
 ## Team Members
 
@@ -61,7 +61,7 @@ Bubacarr is a Semiconductor Engineering Technician with an entrepreneurial minds
 [Bubacarr's LinkedIn profile](https://www.linkedin.com/in/bdarboe/)
 
 ### Courtney Hans
-Courtney is an operations and cybersecurity professional with deep history in the experiential product space. She has a knack for understanding customer pain points and delivering creative, effective solutions. She integrates security operations with business needs, bridging gaps in communication between the two, and shepherding initiatives from ideation to implementation. In short, Courtney simplifies complexity to drive decisions, action, and results.
+Courtney is an operations and cybersecurity professional with deep history in the experiential product space. She has a knack for understanding business and customer pain points and delivering creative, effective solutions. She integrates security operations with business needs, bridging gaps in communication between the two, and shepherding initiatives from ideation to implementation. In short, Courtney simplifies complexity to drive decisions, action, and results.
 
 [Courtney's GitHub profile](https://github.com/CourtHans)</br>
 [Courtney's LinkedIn profile](https://www.linkedin.com/in/courtney-hans/)
