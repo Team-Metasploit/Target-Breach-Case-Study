@@ -97,7 +97,7 @@ Courtney is an operations and cybersecurity professional with deep history in th
 [Courtney's LinkedIn profile](https://www.linkedin.com/in/courtney-hans/)
 
 ### Domonic Moore
-Domonic is a Tech Enthusiast and Problem Solver with a background in Business, Product Design and Cybersecurity. He has a history of balancing business goals with user needs. 
+Domonic is a Tech Enthusiast and Problem Solver with a background in Business, Product Design and Cyber Security. His diverse background allows him to work collaboratively across teams to achieve complex business and user goals. 
 
 [Domonic's GitHub profile](https://github.com/sneakerheadz1)</br>
 [Domonic's LinkedIn profile](https://www.linkedin.com/in/dommo-12/)
