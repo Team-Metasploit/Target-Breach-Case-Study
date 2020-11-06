@@ -67,8 +67,9 @@ GitHub</br>
 Google Docs & Slides</br>
  
 **Tools & coding languages**</br>
-Metasploit</br>
-NMap</br>
+[Metasploit](https://www.metasploit.com/)</br>
+[NMap](https://nmap.org/)</br>
+[THC Hydra](https://tools.kali.org/password-attacks/hydra)</br>
 Fernet key encryption</br>
 Windows Defender Firewall</br>
 Microsoft Security Essentials</br>
@@ -77,10 +78,10 @@ Python 3.8.4</br>
 Windows Command Line</br>
  
 **Additional resources**</br>
-MITRE ATT&CK framework</br>
-Atomic Red Team</br>
-Lockheed Martin Cyber Kill Chain</br>
-NIST Risk Management Framework</br>
+[MITRE ATT&CK](https://attack.mitre.org/)</br>
+[Atomic Red Team](https://redcanary.com/atomic-red-team/)</br>
+[Lockheed Martin Cyber Kill Chain](https://www.lockheedmartin.com/en-us/capabilities/cyber/cyber-kill-chain.html)</br>
+[NIST Risk Management Framework](https://csrc.nist.gov/projects/risk-management/rmf-overview)</br>
 
 ## Team Members
 
