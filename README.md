@@ -1,7 +1,7 @@
 # Target-Breach-Case-Study
-A Case Study of the 2013 Target cybersecurity breach
+**Code Fellows 401 Mid-term Project**
 
-**Code Fellows 401 Mid-term Project**</br>
+A Case Study of the 2013 Target cybersecurity breach</br>
 November 6, 2020
 
 ## Abstract
@@ -25,6 +25,16 @@ During our tabletop scenario exercise, we demonstrate the following attack as ou
 **[Atomic Red Team](https://github.com/redcanaryco/atomic-red-team)**</br>
 [Test Attack:](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1078.001/T1078.001.md)</br> 
 Enable Guest account with administrative privileges and RDP (Remote Desktop Protocol) capability 
+
+## Additional Project Links
+
+[Target Breach Case Study Documents](https://drive.google.com/drive/folders/1iDkCdurUHcoqqfZ4bWqGkqM_dGhb-8o0?usp=sharing) - a Google Drive Project Folder containing the following documents:
+* [Target Case Study Presentation Deck](https://docs.google.com/presentation/d/1ddUeIlRmyHvDC4Yo6ujIqOqfGnuaH-SXDM-mqlQY6FI/edit?usp=sharing)
+* [Case Study Overview](https://docs.google.com/document/d/1i4Xf-IkzW03aPbHfCXP4FdWRW7RcOQfOF-Z4M5gg0UI/edit?usp=sharing)
+* [Security Assesment Report (SAR)](https://docs.google.com/document/d/1UT0hK7sl0kyav4l-UkI7mlNupaiaqgtaX47PqWuma3U/edit?usp=sharing)
+* [STRIDE & DREAD Analysis](https://docs.google.com/document/d/1UW-fdUYpUmPAmnP-hOy1da82q9Q9Zuk0yBCHlWqPrh4/edit?usp=sharing)
+* [Threat Model Technical Report](https://docs.google.com/document/d/1OpmNvYWt9Pc9Y5VdkGzd91oBXhRmnpZzhZSiZrs0gD8/edit)
+* [NIST Risk Management SOP](https://docs.google.com/document/d/17W0rZUiGXvjDZ5rNSKKURSOc8i53MZvwih7Z61E7nAA/edit?usp=sharing)
 
 ## Resources & assets
  
