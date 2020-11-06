@@ -36,6 +36,26 @@ Enable Guest account with administrative privileges and RDP (Remote Desktop Prot
 * [Threat Model Technical Report](https://docs.google.com/document/d/1OpmNvYWt9Pc9Y5VdkGzd91oBXhRmnpZzhZSiZrs0gD8/edit)
 * [NIST Risk Management SOP](https://docs.google.com/document/d/17W0rZUiGXvjDZ5rNSKKURSOc8i53MZvwih7Z61E7nAA/edit?usp=sharing)
 
+## Scripts used in tabletop exercise
+**Python scripts**
+
+[bruteforce.py](bruteforce.py) - [Bubacarr Darboe](https://github.com/bdarboe)</br>
+A python script utilizing the parallelized network logon cracker [THC Hydra](https://tools.kali.org/password-attacks/hydra) for a bruteforce attempt at cracking user passwords.
+
+[detector.py](detectory.py) - [Domonic Moore](https://github.com/sneakerheadz1) </br>
+A python script utlizing Watchdog's *LoggingEventHandler* to observe data movement modifications. This script uses SMTP to send email notifications to the desired recipient when an event is logged.
+
+[encryption.py](encryption.py) - [Courtney Hans](https://github.com/CourtHans)</br>
+A python scripted tool that offers the user a menu of options for encryption and decryption of a directory or single file using a Fernet key.
+
+[meta_py.py](meta_py.py) - [Courtney Hans](https://github.com/CourtHans)</br>
+A python script to listen for and launch a [Metasploit](https://www.metasploit.com/) meterpreter session with the hosting computer set as the listening device.
+
+**Batch file**
+
+[priv_esc.cmd](priv_esc.cmd) - [Courtney Hans](https://github.com/CourtHans)</br>
+A batch file of Windows CLI commands intended to activate the default account "Guest" with a specified password, add the user to Administrator and Remote Desktop User groups, and turn on RDP functionality of the system
+
 ## Resources & assets
  
 **Applications**</br>
