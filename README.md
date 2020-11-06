@@ -86,7 +86,8 @@ Windows Command Line</br>
 ## Team Members
 
 ### Bubacarr Darboe
-Bubacarr is a Cybersecurity Analyst, an entrepreneur and a technology enthusiast with a wide range of exposure to IT and semiconductor technologies. Bubacarr had the opportunity to work on a startup project with some friends and he's always looking forward to the next startup opportunity.
+Bubacarr is a Cybersecurity Professional and a Semiconductor Engineering Technician. As a technology enthusiast with an entrepreneurial mindset and a degree in Technology Management, Bubacarr had the opportunity to work on a startup project assuming a managerial and business development role.
+.
 
 [Bubacarr's GitHub profile](https://github.com/bdarboe)</br>
 [Bubacarr's LinkedIn profile](https://www.linkedin.com/in/bdarboe/)
